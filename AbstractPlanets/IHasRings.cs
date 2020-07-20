@@ -6,5 +6,7 @@ namespace AbstractPlanets
 {
     interface IHasRings
     {
+        bool HasRings();
+
     }
 }
