@@ -6,5 +6,8 @@ namespace AbstractPlanets
 {
     class TerrestrialPlanet
     {
+
+
+
     }
 }

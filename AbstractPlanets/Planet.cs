@@ -97,14 +97,15 @@ namespace AbstractPlanets
 
         // Constructor Method
 
-        public Planet(double diameter , double mass, string name)
+        public Planet(string name,double diameter , double mass )
         {
+            m_name = name;
             m_diameter = diameter;
             m_mass = mass;
-            m_name = name;
+           
         }
 
-
+        //Public override ToString Method
         public override string ToString()
         {
             string PlanetDetailOutput = $"Name:{Name}\n  Mass: {Mass}\n  Diameter:{Diameter}";
