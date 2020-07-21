@@ -108,8 +108,10 @@ namespace AbstractPlanets
         //Public override ToString Method
         public override string ToString()
         {
-            string PlanetDetailOutput = $"Name:{Name}\n  Mass: {Mass}\n  Diameter:{Diameter}";
-            return PlanetDetailOutput;
+          
+             string PlanetDetailOutput  = $" Name: {Name} \n Mass: {Mass} kg \n Diameter: {Diameter} km \n";
+             return PlanetDetailOutput;
+           
         }
 
 

@@ -24,13 +24,15 @@ namespace AbstractPlanets
         //Public Methods 
 
         public bool HasMoons()
-        {
+        { 
+            //checking if planet has moon
             bool hasMoons = MoonCount > 0 ? true : false;
             return hasMoons;
         }
 
         public bool Habitable()
         {
+            //checking if oxygen is present
             bool isHabitable = m_oxygen == true ? true : false;
             return isHabitable;
         }

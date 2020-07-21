@@ -20,7 +20,7 @@ namespace AbstractPlanets
             m_type = type;
         }
 
-
+        //public methods
         public bool HasMoons()
         {
             bool  hasMoons = MoonCount > 0 ? true: false;
